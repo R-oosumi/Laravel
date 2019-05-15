@@ -31,7 +31,6 @@ class ReservationListRequest extends FormRequest
      */
     public function rules()
     {
-      //
       $date = DB::table('reservationlists')->
       where([
         ['id', '<>', $this->id],
@@ -66,7 +65,7 @@ class ReservationListRequest extends FormRequest
       }
 
       return
-      [
+      [//バリデーションルール
         'name' => 'required|katakana',
         'date' => 'required|after:yesterday',
         'starttime' => 'required',
