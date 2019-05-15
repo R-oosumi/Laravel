@@ -30,7 +30,7 @@ class ReservationListRequest extends FormRequest
      * @return array
      */
     public function rules()
-    {
+    {//データの確認
       $date = DB::table('reservationlists')->
       where([
         ['id', '<>', $this->id],
