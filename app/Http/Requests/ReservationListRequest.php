@@ -15,7 +15,7 @@ class ReservationListRequest extends FormRequest
     public function authorize()
     {
       if($this->path() == 'newres' || 'editres')
-      {
+      {//新規作成と変更時のとき
         return true;
       }
       else
