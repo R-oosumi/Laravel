@@ -31,7 +31,6 @@ class ReservationListRequest extends FormRequest
      */
     public function rules()
     {
-      //
       $date = DB::table('reservationlists')->
       where([
         ['id', '<>', $this->id],
