@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use DB;
+// バリデーションを行う場所
 use App\Http\Requests\ReservationListRequest;
 
 class EditReservationController extends Controller
@@ -16,6 +17,7 @@ class EditReservationController extends Controller
 
     public function update(ReservationListRequest $request)
     {
+    // $param:パラメーター
       $param =
       [
         'name' => $request->name,

@@ -13,6 +13,7 @@ class ReservationListController extends Controller
       $sort = $request->sort;
       //予約は10件ずつが見やすそう
       $items = Reservationlist::orderBy($sort, 'asc')->paginate(10);
+      // $param:パラメーター
       $param =
       [
         'items' => $items,
