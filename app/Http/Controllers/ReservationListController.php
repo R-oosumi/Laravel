@@ -8,7 +8,6 @@ use DB;
 
 class ReservationListController extends Controller
 {
-    //並び替えは予約日だけでいいと思う
     public function index(Request $request)
     {
       $sort = $request->sort;
