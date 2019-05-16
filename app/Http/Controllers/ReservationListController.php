@@ -12,6 +12,7 @@ class ReservationListController extends Controller
     public function index(Request $request)
     {
       $sort = $request->sort;
+      //予約は10件ずつが見やすそう
       $items = Reservationlist::orderBy($sort, 'asc')->paginate(10);
       $param =
       [

@@ -7,7 +7,6 @@ use DB;
 
 class DeleteReservationController extends Controller
 {
-    //
     public function delete(Request $request)
     {
       $item = DB::table('reservationlists')->where('id', $request->id)->first();

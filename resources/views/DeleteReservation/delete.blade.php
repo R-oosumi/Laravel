@@ -32,9 +32,7 @@
     </tr>
     <tr>
       <th>削除しますか</th>
-      <td>
-        <input type="submit" value="削除">
-      </td>
+      <td><input type="submit" value="削除"></td>
     </tr>
   </form>
 </table>

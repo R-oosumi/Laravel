@@ -8,7 +8,6 @@ use App\Http\Requests\ReservationListRequest;
 
 class EditReservationController extends Controller
 {
-    //
     public function edit(Request $request)
     {
       $item = DB::table('reservationlists')->where('id', $request->id)->first();
