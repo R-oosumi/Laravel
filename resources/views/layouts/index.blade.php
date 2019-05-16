@@ -2,6 +2,9 @@
 <head>
   <title>@yield('title')</title>
   <style>
+  /*
+    <table>で(align)等が反応しないためそれぞれで記載すること
+  */
   tr th{text-align: center;}
   tr td{text-align: center;}
   </style>
