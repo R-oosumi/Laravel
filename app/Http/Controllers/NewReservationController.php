@@ -7,6 +7,7 @@ use DB;
 // バリデーションを行う場所
 use App\Http\Requests\ReservationListRequest;
 
+// 予約をとるクラス
 class NewReservationController extends Controller
 {
     public function add(Request $request)
@@ -16,7 +17,7 @@ class NewReservationController extends Controller
 
     public function create(ReservationListRequest $request)
     {
-    // $param:パラメーター
+    // $param = parameter
       $param =
       [
         'name' => $request->name,

@@ -7,6 +7,7 @@ use DB;
 // バリデーションを行う場所
 use App\Http\Requests\ReservationListRequest;
 
+// 予約を更新するクラス
 class EditReservationController extends Controller
 {
     public function edit(Request $request)
@@ -17,7 +18,7 @@ class EditReservationController extends Controller
 
     public function update(ReservationListRequest $request)
     {
-    // $param:パラメーター
+    // $param = parameter
       $param =
       [
         'name' => $request->name,

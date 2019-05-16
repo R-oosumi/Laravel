@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use DB;
 
+// 予約を削除するクラス
 class DeleteReservationController extends Controller
 {
     public function delete(Request $request)
