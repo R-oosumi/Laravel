@@ -2,7 +2,6 @@
 <head>
   <title>@yield('title')</title>
   <style>
-  /* 真ん中揃えの方が見やすいと思うから */
   tr th{text-align: center;}
   tr td{text-align: center;}
   </style>
