@@ -20,6 +20,6 @@ class ReservationListController extends Controller
         'items' => $items,
         'sort' => $sort,
       ];
-      return view('reservationlist.index', $param);
+      return view('reservationlist.reslist', $param);
     }
 }
