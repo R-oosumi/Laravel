@@ -7,6 +7,8 @@
   */
   tr th{text-align: center;}
   tr td{text-align: center;}
+  .pagination {font-size: 20pt;}
+  .pagination li {display: inline-block;}
   </style>
   <link rel="stylesheet" type="text/css" href="/css/app.css">
 </head>

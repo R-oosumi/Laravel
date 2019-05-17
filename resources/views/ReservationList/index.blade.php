@@ -1,8 +1,4 @@
 @extends('layouts.index')
-<style>
-.pagination {font-size: 20pt;}
-.pagination li {display: inline-block;}
-</style>
 
 @section('title', '予約一覧')
 
