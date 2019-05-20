@@ -12,7 +12,7 @@
     <tr>
       <th>予約者</th>
       <td>
-        <input type="text" name="name" maxlength="10" autofocus value="{{old('name')}}">
+        <input type="text" name="name" maxlength="10" autofocus placeholder="ヤマダタロウ" value="{{old('name')}}">
       </td>
     </tr>
     <tr>
