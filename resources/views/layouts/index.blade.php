@@ -11,6 +11,7 @@
   .pagination li {display: inline-block;}
   </style>
   <link rel="stylesheet" type="text/css" href="/css/app.css">
+  <meta charset="utf-8">
 </head>
 <body>
   @yield('content')
