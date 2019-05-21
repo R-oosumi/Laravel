@@ -1,7 +1,7 @@
 <html>
 <head>
   <title>@yield('title')</title>
-  <!-- <table>で(align)等が反応しないためそれぞれで記載すること -->
+  <!-- tableで{align}等が反応しないためそれぞれで記載すること -->
   <style>
   tr th{text-align: center;}
   tr td{text-align: center;}
