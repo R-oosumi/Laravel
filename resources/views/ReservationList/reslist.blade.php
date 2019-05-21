@@ -11,7 +11,7 @@
 <table border="1" align="center">
   <tr>
     <th>予約者</th>
-    <th><u><a href="/reslist?sort=date">予約日</a></u></th>
+    <th><a href="/reslist?sort=date">予約日</a></th>
     <th>開始時間</th>
     <th>終了時間</th>
     <th>コートの種類</th>

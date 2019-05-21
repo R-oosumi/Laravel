@@ -3,7 +3,7 @@
   <title>@yield('title')</title>
   <!-- tableで{align}等が反応しないためそれぞれで記載すること -->
   <style>
-  tr th{text-align: center;}
+  tr th{text-align: center; background-color: #87cefa;}
   tr td{text-align: center;}
   .pagination {font-size: 20pt;}
   .pagination li {display: inline-block;}
